@@ -1,0 +1,7 @@
+Library
+Logs
+UserSettings
+.vsconfig
+Assembly-CSharp.csproj
+Zenject.csproj
+Zenject-Editor.csproj
