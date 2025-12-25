@@ -3,8 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\ogun\\UnityProjects\\EternalStruggleDemo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D4F7E9C5-442E-F659-520D-AB5747CB2BCA}|Assembly-CSharp.csproj|C:\\Users\\ogun\\UnityProjects\\EternalStruggleDemo\\assets\\installers\\inputinstaller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D4F7E9C5-442E-F659-520D-AB5747CB2BCA}|Assembly-CSharp.csproj|solutionrelative:assets\\installers\\inputinstaller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D4F7E9C5-442E-F659-520D-AB5747CB2BCA}|Assembly-CSharp.csproj|C:\\Users\\ogun\\UnityProjects\\EternalStruggleDemo\\assets\\installers\\enemyinstaller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4F7E9C5-442E-F659-520D-AB5747CB2BCA}|Assembly-CSharp.csproj|solutionrelative:assets\\installers\\enemyinstaller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4F7E9C5-442E-F659-520D-AB5747CB2BCA}|Assembly-CSharp.csproj|C:\\Users\\ogun\\UnityProjects\\EternalStruggleDemo\\assets\\scripts\\enemy\\enemychasestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4F7E9C5-442E-F659-520D-AB5747CB2BCA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\enemychasestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4F7E9C5-442E-F659-520D-AB5747CB2BCA}|Assembly-CSharp.csproj|C:\\Users\\ogun\\UnityProjects\\EternalStruggleDemo\\assets\\scripts\\enemy\\enemyspawnstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4F7E9C5-442E-F659-520D-AB5747CB2BCA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\enemyspawnstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4F7E9C5-442E-F659-520D-AB5747CB2BCA}|Assembly-CSharp.csproj|C:\\Users\\ogun\\UnityProjects\\EternalStruggleDemo\\assets\\scripts\\enemy\\enemystatemachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4F7E9C5-442E-F659-520D-AB5747CB2BCA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\enemystatemachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4F7E9C5-442E-F659-520D-AB5747CB2BCA}|Assembly-CSharp.csproj|c:\\users\\ogun\\unityprojects\\eternalstruggledemo\\assets\\scripts\\interfaces\\ienemystate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4F7E9C5-442E-F659-520D-AB5747CB2BCA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\interfaces\\ienemystate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,19 +30,71 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "InputInstaller.cs",
-              "DocumentMoniker": "C:\\Users\\ogun\\UnityProjects\\EternalStruggleDemo\\Assets\\Installers\\InputInstaller.cs",
-              "RelativeDocumentMoniker": "Assets\\Installers\\InputInstaller.cs",
-              "ToolTip": "C:\\Users\\ogun\\UnityProjects\\EternalStruggleDemo\\Assets\\Installers\\InputInstaller.cs",
-              "RelativeToolTip": "Assets\\Installers\\InputInstaller.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABGAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "IEnemyState.cs",
+              "DocumentMoniker": "C:\\Users\\ogun\\UnityProjects\\EternalStruggleDemo\\Assets\\Scripts\\Interfaces\\IEnemyState.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Interfaces\\IEnemyState.cs",
+              "ToolTip": "C:\\Users\\ogun\\UnityProjects\\EternalStruggleDemo\\Assets\\Scripts\\Interfaces\\IEnemyState.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Interfaces\\IEnemyState.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-25T17:53:16.899Z",
+              "WhenOpened": "2025-12-25T18:56:41.177Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EnemyStateMachine.cs",
+              "DocumentMoniker": "C:\\Users\\ogun\\UnityProjects\\EternalStruggleDemo\\Assets\\Scripts\\Enemy\\EnemyStateMachine.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\EnemyStateMachine.cs",
+              "ToolTip": "C:\\Users\\ogun\\UnityProjects\\EternalStruggleDemo\\Assets\\Scripts\\Enemy\\EnemyStateMachine.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Enemy\\EnemyStateMachine.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAuwB8AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-25T18:12:12.677Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EnemySpawnState.cs",
+              "DocumentMoniker": "C:\\Users\\ogun\\UnityProjects\\EternalStruggleDemo\\Assets\\Scripts\\Enemy\\EnemySpawnState.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\EnemySpawnState.cs",
+              "ToolTip": "C:\\Users\\ogun\\UnityProjects\\EternalStruggleDemo\\Assets\\Scripts\\Enemy\\EnemySpawnState.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Enemy\\EnemySpawnState.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBIAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-25T18:44:37.61Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EnemyInstaller.cs",
+              "DocumentMoniker": "C:\\Users\\ogun\\UnityProjects\\EternalStruggleDemo\\Assets\\Installers\\EnemyInstaller.cs",
+              "RelativeDocumentMoniker": "Assets\\Installers\\EnemyInstaller.cs",
+              "ToolTip": "C:\\Users\\ogun\\UnityProjects\\EternalStruggleDemo\\Assets\\Installers\\EnemyInstaller.cs",
+              "RelativeToolTip": "Assets\\Installers\\EnemyInstaller.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-25T18:35:19.793Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EnemyChaseState.cs",
+              "DocumentMoniker": "C:\\Users\\ogun\\UnityProjects\\EternalStruggleDemo\\Assets\\Scripts\\Enemy\\EnemyChaseState.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\EnemyChaseState.cs",
+              "ToolTip": "C:\\Users\\ogun\\UnityProjects\\EternalStruggleDemo\\Assets\\Scripts\\Enemy\\EnemyChaseState.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Enemy\\EnemyChaseState.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-25T18:15:05.108Z",
               "EditorCaption": ""
             }
           ]
