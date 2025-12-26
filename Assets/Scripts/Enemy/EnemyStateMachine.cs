@@ -18,18 +18,20 @@ public class EnemyStateMachine : MonoBehaviour
     {
         _spawnState = spawnState;
         _chaseState = chaseState;
+
+        _spawnState.SetStateMachine(this);
+        _chaseState.SetStateMachine(this);
+
+        _currentState = _spawnState;
+        _currentState.EnterState();
     }
 
     public EnemySpawnState SpawnState => _spawnState;
     public EnemyChaseState ChaseState => _chaseState;
-    void Start()
-    {
-        _currentState = _spawnState;
-        _currentState.EnterState();
-    }
     private void Update()
     {
-        _currentState.Tick();
+        if (_currentState != null)
+            _currentState.Tick();
     }
     public void SwitchState(IEnemyState newState)
     {

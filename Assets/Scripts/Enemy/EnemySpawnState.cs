@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -5,11 +6,11 @@ using Zenject;
 
 public class EnemySpawnState : IEnemyState
 {
-    private readonly EnemyStateMachine _stateMachine;
+    private EnemyStateMachine _stateMachine;
 
     private float _testTimer = 5f;
 
-    public EnemySpawnState(EnemyStateMachine stateMachine)
+    public void SetStateMachine(EnemyStateMachine stateMachine)
     {
         _stateMachine = stateMachine;
     }
