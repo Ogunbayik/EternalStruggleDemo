@@ -31,11 +31,6 @@ public class EnemyChaseState : IEnemyState
             _brain.SwitchState<EnemyAttackState>();
 
         _enemy.ChaseTarget(_player.transform);
-        HandleMovement();
-    }
-    private void HandleMovement()
-    {
-        _enemy.transform.position = Vector3.MoveTowards(_enemy.transform.position, _player.transform.position, _enemy.Data.MovementSpeed * Time.deltaTime);
     }
 
 }

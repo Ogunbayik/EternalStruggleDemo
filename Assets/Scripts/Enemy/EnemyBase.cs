@@ -5,7 +5,7 @@ using Zenject;
 
 public class EnemyBase : MonoBehaviour
 {
-    private EnemyDataSO _data;
+    protected EnemyDataSO _data;
 
     [Inject]
     public void Construct(EnemyDataSO data)

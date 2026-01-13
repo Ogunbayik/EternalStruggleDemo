@@ -8,13 +8,15 @@ public class EnemyAttackState : IEnemyState
     private PlayerView _player;
     private EnemyBase _enemy;
     private EnemyBrain _brain;
+    private IAttackStrategy _attackStrategy;
 
     private float _attackTimer;
 
-    public EnemyAttackState(EnemyBase enemy, PlayerView player)
+    public EnemyAttackState(EnemyBase enemy, PlayerView player, IAttackStrategy attackStrategy)
     {
         _enemy = enemy;
         _player = player;
+        _attackStrategy = attackStrategy;
     }
     public void Initialize(EnemyBrain brain) => _brain = brain;
     public void EnterState()
@@ -35,6 +37,7 @@ public class EnemyAttackState : IEnemyState
     }
     private void ExecuteAttack()
     {
+        _attackStrategy.ExecuteAttack();
         Debug.Log("Playing Attack Animation");
         _attackTimer = _enemy.Data.AttackDuration;
     }
