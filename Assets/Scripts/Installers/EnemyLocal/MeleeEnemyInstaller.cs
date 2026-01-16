@@ -6,7 +6,7 @@ public class MeleeEnemyInstaller : BaseEnemyInstaller
 {
     protected override void BindAttacks()
     {
-        Container.Bind<IAttackStrategy>().To<MeleeAttack>().AsCached();
+
     }
 
     protected override void BindStates()

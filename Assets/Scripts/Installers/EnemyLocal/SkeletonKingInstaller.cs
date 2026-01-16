@@ -4,14 +4,18 @@ using UnityEngine;
 
 public class SkeletonKingInstaller : BaseEnemyInstaller
 {
+    [Header("Attack Settings")]
+    //[SerializeField] private AttackStrategySO _meleeAttack;
+    [SerializeField] private AttackStrategySO _rangeAttack;
     protected override void BindAttacks()
     {
-        Container.Bind<IAttackStrategy>().To<MeleeAttack>().AsCached();
+        //Container.Bind<AttackStrategySO>().FromInstance(_meleeAttack).AsSingle().NonLazy();
+        Container.Bind<AttackStrategySO>().FromInstance(_rangeAttack).AsSingle().NonLazy();
     }
 
     protected override void BindStates()
     {
-        Container.Bind<IEnemyState>().To<EnemyChaseState>().AsCached();
-        Container.Bind<IEnemyState>().To<EnemyAttackState>().AsCached();
+        Container.Bind<IEnemyState>().To<EnemyChaseState>().AsSingle();
+        Container.Bind<IEnemyState>().To<EnemyAttackState>().AsSingle();
     }
 }

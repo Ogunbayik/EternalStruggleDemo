@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f8d3d81045cb88419a2ab7dc5cadf1c, type: 3}
+  m_Name: StraightFireball
+  m_EditorClassIdentifier: 
+  _attackDuration: 1
+  _attackDamage: 0
+  _attackPrefab: {fileID: 5667886961962144024, guid: 7042bdcb798e1334abb6a72e03a0448c, type: 3}
+  _prefabCount: 1
