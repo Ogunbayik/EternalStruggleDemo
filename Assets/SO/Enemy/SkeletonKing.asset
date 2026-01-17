@@ -15,5 +15,5 @@ MonoBehaviour:
   _enemyName: Skeleton King
   _isBoss: 1
   _movementSpeed: 1.7
-  _attackDistance: 2
+  _attackDistance: 8
   _attackDuration: 1.5

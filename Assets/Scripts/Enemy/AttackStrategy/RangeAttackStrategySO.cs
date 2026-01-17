@@ -2,17 +2,18 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-[CreateAssetMenu(fileName = "New Attack Strategy", menuName = "SO/Attack Strategy/Range")]
-public class RangeAttackStrategySO : AttackStrategySO
+public abstract class RangeAttackStrategySO : AttackStrategySO
 {
     [Header("Attack Settings")]
-    [SerializeField] private GameObject _prefab;
-    [SerializeField] private int _prefabCount;
-    [SerializeField] private float _prefabSpeed;
+    [SerializeField] protected GameObject _prefab;
+    [SerializeField] protected int _prefabCount;
+    [SerializeField] protected float _prefabSpeed;
 
     public override void ExecuteAttack(Transform user)
     {
         Debug.Log($"{user.name} is using Fireball");
+        CreateProjectile(user);
     }
 
+    public abstract void CreateProjectile(Transform user);
 }

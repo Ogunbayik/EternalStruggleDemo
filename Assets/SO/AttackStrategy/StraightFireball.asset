@@ -9,10 +9,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9f8d3d81045cb88419a2ab7dc5cadf1c, type: 3}
+  m_Script: {fileID: 11500000, guid: 1bbe03054b9934844bd419c4527b3e90, type: 3}
   m_Name: StraightFireball
   m_EditorClassIdentifier: 
-  _attackDuration: 1
+  _attackDuration: 0
   _attackDamage: 0
-  _attackPrefab: {fileID: 5667886961962144024, guid: 7042bdcb798e1334abb6a72e03a0448c, type: 3}
+  _prefab: {fileID: 5667886961962144024, guid: 7042bdcb798e1334abb6a72e03a0448c, type: 3}
   _prefabCount: 1
+  _prefabSpeed: 5
