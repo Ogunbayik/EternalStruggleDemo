@@ -15,7 +15,10 @@ public class SkeletonKingInstaller : BaseEnemyInstaller
 
     protected override void BindStates()
     {
+        Container.Bind<IEnemyState>().To<EnemySpawnState>().AsSingle();
         Container.Bind<IEnemyState>().To<EnemyChaseState>().AsSingle();
         Container.Bind<IEnemyState>().To<EnemyAttackState>().AsSingle();
+        Container.Bind<IEnemyState>().To<BossWaitingState>().AsSingle();
+        Container.Bind<IEnemyState>().To<BossFlyState>().AsSingle();
     }
 }

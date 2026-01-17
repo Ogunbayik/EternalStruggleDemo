@@ -21,7 +21,7 @@ public class EnemyBrain : ITickable, IInitializable
             _stateMap[state.GetType()] = state;
         }
 
-        SwitchState<EnemyChaseState>();
+        SwitchState<EnemySpawnState>();
     }
     public void SwitchState<T>() where T : IEnemyState
     {

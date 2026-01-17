@@ -27,7 +27,8 @@ public class SpreadAttackStrategySO : RangeAttackStrategySO
 
             var projectile = _projectileFactory.Create();
             projectile.transform.position = user.position;
-            projectile.transform.rotation = Quaternion.Euler(0, finalDegree, 0);
+            projectile.transform.rotation = user.rotation * Quaternion.Euler(0f, finalDegree, 0f);
+            
             projectile.Launch(_prefabSpeed);
         }
     }

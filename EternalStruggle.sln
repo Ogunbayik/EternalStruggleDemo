@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zenject-Editor", "Zenject-E
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{27C702C5-DA1A-8D5F-04FE-1804F23BC9D0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DOTween.Modules", "DOTween.Modules.csproj", "{7C0250C6-9CF8-5852-0E8E-B7A36A551B4F}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zenject-TestFramework", "Zenject-TestFramework.csproj", "{67595FBD-88E4-C622-4807-002D3C7A621C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zenject-PoolMonitor-Editor", "Zenject-PoolMonitor-Editor.csproj", "{7EC896B2-1EAA-9333-613E-8646AD5F8CB3}"
@@ -53,6 +55,10 @@ Global
 		{27C702C5-DA1A-8D5F-04FE-1804F23BC9D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{27C702C5-DA1A-8D5F-04FE-1804F23BC9D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{27C702C5-DA1A-8D5F-04FE-1804F23BC9D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C0250C6-9CF8-5852-0E8E-B7A36A551B4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C0250C6-9CF8-5852-0E8E-B7A36A551B4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C0250C6-9CF8-5852-0E8E-B7A36A551B4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C0250C6-9CF8-5852-0E8E-B7A36A551B4F}.Release|Any CPU.Build.0 = Release|Any CPU
 		{67595FBD-88E4-C622-4807-002D3C7A621C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{67595FBD-88E4-C622-4807-002D3C7A621C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{67595FBD-88E4-C622-4807-002D3C7A621C}.Release|Any CPU.ActiveCfg = Release|Any CPU
