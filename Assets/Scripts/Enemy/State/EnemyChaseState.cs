@@ -17,7 +17,7 @@ public class EnemyChaseState : IEnemyState
     public void Initialize(EnemyBrain brain) => _brain = brain;
     public void EnterState()
     {
-        Debug.Log("Activate realising animation");
+
     }
     public void ExitState()
     {

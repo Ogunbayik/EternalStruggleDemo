@@ -3,60 +3,56 @@
   "WorkspaceRootPath": "C:\\Users\\ogun\\UnityProjects\\EternalStruggle\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{27C702C5-DA1A-8D5F-04FE-1804F23BC9D0}|Assembly-CSharp.csproj|C:\\Users\\ogun\\UnityProjects\\EternalStruggle\\assets\\scripts\\enemy\\attackstrategy\\spreadattackstrategyso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{27C702C5-DA1A-8D5F-04FE-1804F23BC9D0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\attackstrategy\\spreadattackstrategyso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{27C702C5-DA1A-8D5F-04FE-1804F23BC9D0}|Assembly-CSharp.csproj|C:\\Users\\ogun\\UnityProjects\\EternalStruggle\\assets\\scripts\\enemy\\bossbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27C702C5-DA1A-8D5F-04FE-1804F23BC9D0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\bossbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{27C702C5-DA1A-8D5F-04FE-1804F23BC9D0}|Assembly-CSharp.csproj|C:\\Users\\ogun\\UnityProjects\\EternalStruggle\\assets\\scripts\\enemy\\state\\enemyattackstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{27C702C5-DA1A-8D5F-04FE-1804F23BC9D0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\state\\enemyattackstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{27C702C5-DA1A-8D5F-04FE-1804F23BC9D0}|Assembly-CSharp.csproj|C:\\Users\\ogun\\UnityProjects\\EternalStruggle\\assets\\scripts\\enemy\\state\\boss\\bossflystate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{27C702C5-DA1A-8D5F-04FE-1804F23BC9D0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\state\\boss\\bossflystate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{27C702C5-DA1A-8D5F-04FE-1804F23BC9D0}|Assembly-CSharp.csproj|C:\\Users\\ogun\\UnityProjects\\EternalStruggle\\assets\\scripts\\enemy\\state\\boss\\bosswaitingstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{27C702C5-DA1A-8D5F-04FE-1804F23BC9D0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\state\\boss\\bosswaitingstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{27C702C5-DA1A-8D5F-04FE-1804F23BC9D0}|Assembly-CSharp.csproj|c:\\users\\ogun\\unityprojects\\eternalstruggle\\assets\\scripts\\enemy\\state\\boss\\bossdecidestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27C702C5-DA1A-8D5F-04FE-1804F23BC9D0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\state\\boss\\bossdecidestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{27C702C5-DA1A-8D5F-04FE-1804F23BC9D0}|Assembly-CSharp.csproj|c:\\users\\ogun\\unityprojects\\eternalstruggle\\assets\\scripts\\enemy\\enemybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{27C702C5-DA1A-8D5F-04FE-1804F23BC9D0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\enemybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{27C702C5-DA1A-8D5F-04FE-1804F23BC9D0}|Assembly-CSharp.csproj|c:\\users\\ogun\\unityprojects\\eternalstruggle\\assets\\scripts\\enemy\\state\\enemyspawnstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{27C702C5-DA1A-8D5F-04FE-1804F23BC9D0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\state\\enemyspawnstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{27C702C5-DA1A-8D5F-04FE-1804F23BC9D0}|Assembly-CSharp.csproj|c:\\users\\ogun\\unityprojects\\eternalstruggle\\assets\\scripts\\enemy\\state\\boss\\bossflystate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27C702C5-DA1A-8D5F-04FE-1804F23BC9D0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\state\\boss\\bossflystate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{27C702C5-DA1A-8D5F-04FE-1804F23BC9D0}|Assembly-CSharp.csproj|C:\\Users\\ogun\\UnityProjects\\EternalStruggle\\assets\\scripts\\enemy\\state\\enemychasestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{27C702C5-DA1A-8D5F-04FE-1804F23BC9D0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\state\\enemychasestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{27C702C5-DA1A-8D5F-04FE-1804F23BC9D0}|Assembly-CSharp.csproj|C:\\Users\\ogun\\UnityProjects\\EternalStruggle\\assets\\scripts\\enemy\\type\\skeleton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27C702C5-DA1A-8D5F-04FE-1804F23BC9D0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\type\\skeleton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{27C702C5-DA1A-8D5F-04FE-1804F23BC9D0}|Assembly-CSharp.csproj|C:\\Users\\ogun\\UnityProjects\\EternalStruggle\\assets\\scripts\\enemy\\enemybrain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{27C702C5-DA1A-8D5F-04FE-1804F23BC9D0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\enemybrain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{27C702C5-DA1A-8D5F-04FE-1804F23BC9D0}|Assembly-CSharp.csproj|C:\\Users\\ogun\\UnityProjects\\EternalStruggle\\assets\\scripts\\installers\\enemylocal\\skeletonkinginstaller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{27C702C5-DA1A-8D5F-04FE-1804F23BC9D0}|Assembly-CSharp.csproj|c:\\users\\ogun\\unityprojects\\eternalstruggle\\assets\\scripts\\installers\\enemylocal\\skeletonkinginstaller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{27C702C5-DA1A-8D5F-04FE-1804F23BC9D0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\installers\\enemylocal\\skeletonkinginstaller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{27C702C5-DA1A-8D5F-04FE-1804F23BC9D0}|Assembly-CSharp.csproj|C:\\Users\\ogun\\UnityProjects\\EternalStruggle\\assets\\scripts\\scriptableobject\\enemydataso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{27C702C5-DA1A-8D5F-04FE-1804F23BC9D0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scriptableobject\\enemydataso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{27C702C5-DA1A-8D5F-04FE-1804F23BC9D0}|Assembly-CSharp.csproj|c:\\users\\ogun\\unityprojects\\eternalstruggle\\assets\\scripts\\enemy\\state\\enemyattackstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27C702C5-DA1A-8D5F-04FE-1804F23BC9D0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\state\\enemyattackstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{27C702C5-DA1A-8D5F-04FE-1804F23BC9D0}|Assembly-CSharp.csproj|C:\\Users\\ogun\\UnityProjects\\EternalStruggle\\assets\\scripts\\enemy\\type\\skeletonking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{27C702C5-DA1A-8D5F-04FE-1804F23BC9D0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\type\\skeletonking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{27C702C5-DA1A-8D5F-04FE-1804F23BC9D0}|Assembly-CSharp.csproj|c:\\users\\ogun\\unityprojects\\eternalstruggle\\assets\\scripts\\enemy\\rangebase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27C702C5-DA1A-8D5F-04FE-1804F23BC9D0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\rangebase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{27C702C5-DA1A-8D5F-04FE-1804F23BC9D0}|Assembly-CSharp.csproj|C:\\Users\\ogun\\UnityProjects\\EternalStruggle\\assets\\scripts\\enemy\\attackstrategy\\straightattackstrategyso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{27C702C5-DA1A-8D5F-04FE-1804F23BC9D0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\attackstrategy\\straightattackstrategyso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{27C702C5-DA1A-8D5F-04FE-1804F23BC9D0}|Assembly-CSharp.csproj|c:\\users\\ogun\\unityprojects\\eternalstruggle\\assets\\scripts\\enemy\\state\\enemychasestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27C702C5-DA1A-8D5F-04FE-1804F23BC9D0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\state\\enemychasestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{27C702C5-DA1A-8D5F-04FE-1804F23BC9D0}|Assembly-CSharp.csproj|C:\\Users\\ogun\\UnityProjects\\EternalStruggle\\assets\\scripts\\enemy\\attackstrategy\\meleeattackstrategyso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{27C702C5-DA1A-8D5F-04FE-1804F23BC9D0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\attackstrategy\\meleeattackstrategyso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{27C702C5-DA1A-8D5F-04FE-1804F23BC9D0}|Assembly-CSharp.csproj|c:\\users\\ogun\\unityprojects\\eternalstruggle\\assets\\scripts\\enemy\\meleebase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27C702C5-DA1A-8D5F-04FE-1804F23BC9D0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\meleebase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ogun\\UnityProjects\\EternalStruggle\\assets\\scripts\\enemy\\state\\bossflystate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:assets\\scripts\\enemy\\state\\bossflystate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{27C702C5-DA1A-8D5F-04FE-1804F23BC9D0}|Assembly-CSharp.csproj|C:\\Users\\ogun\\UnityProjects\\EternalStruggle\\assets\\scripts\\installers\\enemylocal\\meleeenemyinstaller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27C702C5-DA1A-8D5F-04FE-1804F23BC9D0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\installers\\enemylocal\\meleeenemyinstaller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27C702C5-DA1A-8D5F-04FE-1804F23BC9D0}|Assembly-CSharp.csproj|c:\\users\\ogun\\unityprojects\\eternalstruggle\\assets\\scripts\\enemy\\state\\boss\\bosswaitingstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27C702C5-DA1A-8D5F-04FE-1804F23BC9D0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\state\\boss\\bosswaitingstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27C702C5-DA1A-8D5F-04FE-1804F23BC9D0}|Assembly-CSharp.csproj|C:\\Users\\ogun\\UnityProjects\\EternalStruggle\\assets\\scripts\\enemy\\attackstrategy\\rangeattackstrategyso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27C702C5-DA1A-8D5F-04FE-1804F23BC9D0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\attackstrategy\\rangeattackstrategyso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -66,185 +62,175 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "SpreadAttackStrategySO.cs",
-              "DocumentMoniker": "C:\\Users\\ogun\\UnityProjects\\EternalStruggle\\Assets\\Scripts\\Enemy\\AttackStrategy\\SpreadAttackStrategySO.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\AttackStrategy\\SpreadAttackStrategySO.cs",
-              "ToolTip": "C:\\Users\\ogun\\UnityProjects\\EternalStruggle\\Assets\\Scripts\\Enemy\\AttackStrategy\\SpreadAttackStrategySO.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Enemy\\AttackStrategy\\SpreadAttackStrategySO.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAwwB4AAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-17T12:33:28.771Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "EnemyAttackState.cs",
-              "DocumentMoniker": "C:\\Users\\ogun\\UnityProjects\\EternalStruggle\\Assets\\Scripts\\Enemy\\State\\EnemyAttackState.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\State\\EnemyAttackState.cs",
-              "ToolTip": "C:\\Users\\ogun\\UnityProjects\\EternalStruggle\\Assets\\Scripts\\Enemy\\State\\EnemyAttackState.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Enemy\\State\\EnemyAttackState.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAQwAkAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-12T12:56:31.892Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "EnemySpawnState.cs",
-              "DocumentMoniker": "C:\\Users\\ogun\\UnityProjects\\EternalStruggle\\Assets\\Scripts\\Enemy\\State\\EnemySpawnState.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\State\\EnemySpawnState.cs",
-              "ToolTip": "C:\\Users\\ogun\\UnityProjects\\EternalStruggle\\Assets\\Scripts\\Enemy\\State\\EnemySpawnState.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Enemy\\State\\EnemySpawnState.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAAwCEAAAAJAAAAAAAAAA==",
+              "Title": "SkeletonKingInstaller.cs",
+              "DocumentMoniker": "C:\\Users\\ogun\\UnityProjects\\EternalStruggle\\Assets\\Scripts\\Installers\\EnemyLocal\\SkeletonKingInstaller.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Installers\\EnemyLocal\\SkeletonKingInstaller.cs",
+              "ToolTip": "C:\\Users\\ogun\\UnityProjects\\EternalStruggle\\Assets\\Scripts\\Installers\\EnemyLocal\\SkeletonKingInstaller.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Installers\\EnemyLocal\\SkeletonKingInstaller.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-17T19:36:39.206Z",
+              "WhenOpened": "2026-01-20T18:23:13.998Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "Skeleton.cs",
+              "DocumentMoniker": "C:\\Users\\ogun\\UnityProjects\\EternalStruggle\\Assets\\Scripts\\Enemy\\Type\\Skeleton.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\Type\\Skeleton.cs",
+              "ToolTip": "C:\\Users\\ogun\\UnityProjects\\EternalStruggle\\Assets\\Scripts\\Enemy\\Type\\Skeleton.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Enemy\\Type\\Skeleton.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T11:57:14.676Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BossBase.cs",
+              "DocumentMoniker": "C:\\Users\\ogun\\UnityProjects\\EternalStruggle\\Assets\\Scripts\\Enemy\\BossBase.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\BossBase.cs",
+              "ToolTip": "C:\\Users\\ogun\\UnityProjects\\EternalStruggle\\Assets\\Scripts\\Enemy\\BossBase.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Enemy\\BossBase.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABQAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-19T16:03:07.121Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "EnemyChaseState.cs",
+              "DocumentMoniker": "C:\\Users\\ogun\\UnityProjects\\EternalStruggle\\Assets\\Scripts\\Enemy\\State\\EnemyChaseState.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\State\\EnemyChaseState.cs",
+              "ToolTip": "C:\\Users\\ogun\\UnityProjects\\EternalStruggle\\Assets\\Scripts\\Enemy\\State\\EnemyChaseState.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Enemy\\State\\EnemyChaseState.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T18:19:50.099Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MeleeBase.cs",
+              "DocumentMoniker": "C:\\Users\\ogun\\UnityProjects\\EternalStruggle\\Assets\\Scripts\\Enemy\\MeleeBase.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\MeleeBase.cs",
+              "ToolTip": "C:\\Users\\ogun\\UnityProjects\\EternalStruggle\\Assets\\Scripts\\Enemy\\MeleeBase.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Enemy\\MeleeBase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T12:34:46.011Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EnemyAttackState.cs",
+              "DocumentMoniker": "C:\\Users\\ogun\\UnityProjects\\EternalStruggle\\Assets\\Scripts\\Enemy\\State\\EnemyAttackState.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\State\\EnemyAttackState.cs",
+              "ToolTip": "C:\\Users\\ogun\\UnityProjects\\EternalStruggle\\Assets\\Scripts\\Enemy\\State\\EnemyAttackState.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Enemy\\State\\EnemyAttackState.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAgwCgAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T12:53:05.862Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "RangeBase.cs",
+              "DocumentMoniker": "C:\\Users\\ogun\\UnityProjects\\EternalStruggle\\Assets\\Scripts\\Enemy\\RangeBase.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\RangeBase.cs",
+              "ToolTip": "C:\\Users\\ogun\\UnityProjects\\EternalStruggle\\Assets\\Scripts\\Enemy\\RangeBase.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Enemy\\RangeBase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T12:34:47.423Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "EnemyBase.cs",
               "DocumentMoniker": "C:\\Users\\ogun\\UnityProjects\\EternalStruggle\\Assets\\Scripts\\Enemy\\EnemyBase.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\EnemyBase.cs",
               "ToolTip": "C:\\Users\\ogun\\UnityProjects\\EternalStruggle\\Assets\\Scripts\\Enemy\\EnemyBase.cs",
               "RelativeToolTip": "Assets\\Scripts\\Enemy\\EnemyBase.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAUAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAuwAUAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-12T12:32:16.151Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "BossFlyState.cs",
-              "DocumentMoniker": "C:\\Users\\ogun\\UnityProjects\\EternalStruggle\\Assets\\Scripts\\Enemy\\State\\Boss\\BossFlyState.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\State\\Boss\\BossFlyState.cs",
-              "ToolTip": "C:\\Users\\ogun\\UnityProjects\\EternalStruggle\\Assets\\Scripts\\Enemy\\State\\Boss\\BossFlyState.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Enemy\\State\\Boss\\BossFlyState.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAxwCUAAAAFAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "BossDecideState.cs",
+              "DocumentMoniker": "C:\\Users\\ogun\\UnityProjects\\EternalStruggle\\Assets\\Scripts\\Enemy\\State\\Boss\\BossDecideState.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\State\\Boss\\BossDecideState.cs",
+              "ToolTip": "C:\\Users\\ogun\\UnityProjects\\EternalStruggle\\Assets\\Scripts\\Enemy\\State\\Boss\\BossDecideState.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Enemy\\State\\Boss\\BossDecideState.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAowCMAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-17T19:35:47.224Z",
+              "WhenOpened": "2026-01-20T17:33:30.469Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "BossWaitingState.cs",
-              "DocumentMoniker": "C:\\Users\\ogun\\UnityProjects\\EternalStruggle\\Assets\\Scripts\\Enemy\\State\\Boss\\BossWaitingState.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\State\\Boss\\BossWaitingState.cs",
-              "ToolTip": "C:\\Users\\ogun\\UnityProjects\\EternalStruggle\\Assets\\Scripts\\Enemy\\State\\Boss\\BossWaitingState.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Enemy\\State\\Boss\\BossWaitingState.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-17T18:52:56.075Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "EnemyBrain.cs",
-              "DocumentMoniker": "C:\\Users\\ogun\\UnityProjects\\EternalStruggle\\Assets\\Scripts\\Enemy\\EnemyBrain.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\EnemyBrain.cs",
-              "ToolTip": "C:\\Users\\ogun\\UnityProjects\\EternalStruggle\\Assets\\Scripts\\Enemy\\EnemyBrain.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Enemy\\EnemyBrain.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAgAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-17T18:50:09.105Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "SkeletonKing.cs",
-              "DocumentMoniker": "C:\\Users\\ogun\\UnityProjects\\EternalStruggle\\Assets\\Scripts\\Enemy\\Type\\SkeletonKing.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\Type\\SkeletonKing.cs",
-              "ToolTip": "C:\\Users\\ogun\\UnityProjects\\EternalStruggle\\Assets\\Scripts\\Enemy\\Type\\SkeletonKing.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Enemy\\Type\\SkeletonKing.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-13T10:17:04.796Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "EnemyChaseState.cs",
-              "DocumentMoniker": "C:\\Users\\ogun\\UnityProjects\\EternalStruggle\\Assets\\Scripts\\Enemy\\State\\EnemyChaseState.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\State\\EnemyChaseState.cs",
-              "ToolTip": "C:\\Users\\ogun\\UnityProjects\\EternalStruggle\\Assets\\Scripts\\Enemy\\State\\EnemyChaseState.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Enemy\\State\\EnemyChaseState.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAuwB0AAAA6AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-17T18:47:40.08Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "SkeletonKingInstaller.cs",
-              "DocumentMoniker": "C:\\Users\\ogun\\UnityProjects\\EternalStruggle\\Assets\\Scripts\\Installers\\EnemyLocal\\SkeletonKingInstaller.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Installers\\EnemyLocal\\SkeletonKingInstaller.cs",
-              "ToolTip": "C:\\Users\\ogun\\UnityProjects\\EternalStruggle\\Assets\\Scripts\\Installers\\EnemyLocal\\SkeletonKingInstaller.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Installers\\EnemyLocal\\SkeletonKingInstaller.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAABIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-13T20:48:24.273Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
               "Title": "BossFlyState.cs",
-              "DocumentMoniker": "C:\\Users\\ogun\\UnityProjects\\EternalStruggle\\Assets\\Scripts\\Enemy\\State\\BossFlyState.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\State\\BossFlyState.cs",
-              "ToolTip": "C:\\Users\\ogun\\UnityProjects\\EternalStruggle\\Assets\\Scripts\\Enemy\\State\\BossFlyState.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Enemy\\State\\BossFlyState.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAACIAAAAjAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\ogun\\UnityProjects\\EternalStruggle\\Assets\\Scripts\\Enemy\\State\\Boss\\BossFlyState.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\State\\Boss\\BossFlyState.cs",
+              "ToolTip": "C:\\Users\\ogun\\UnityProjects\\EternalStruggle\\Assets\\Scripts\\Enemy\\State\\Boss\\BossFlyState.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Enemy\\State\\Boss\\BossFlyState.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABgAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-17T18:30:16.011Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "EnemyDataSO.cs",
-              "DocumentMoniker": "C:\\Users\\ogun\\UnityProjects\\EternalStruggle\\Assets\\Scripts\\ScriptableObject\\EnemyDataSO.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\ScriptableObject\\EnemyDataSO.cs",
-              "ToolTip": "C:\\Users\\ogun\\UnityProjects\\EternalStruggle\\Assets\\Scripts\\ScriptableObject\\EnemyDataSO.cs",
-              "RelativeToolTip": "Assets\\Scripts\\ScriptableObject\\EnemyDataSO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-12T12:45:27.137Z",
+              "WhenOpened": "2026-01-20T17:31:39.719Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
-              "Title": "StraightAttackStrategySO.cs",
-              "DocumentMoniker": "C:\\Users\\ogun\\UnityProjects\\EternalStruggle\\Assets\\Scripts\\Enemy\\AttackStrategy\\StraightAttackStrategySO.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\AttackStrategy\\StraightAttackStrategySO.cs",
-              "ToolTip": "C:\\Users\\ogun\\UnityProjects\\EternalStruggle\\Assets\\Scripts\\Enemy\\AttackStrategy\\StraightAttackStrategySO.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Enemy\\AttackStrategy\\StraightAttackStrategySO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAyAAAAAAAAAA==",
+              "Title": "BossWaitingState.cs",
+              "DocumentMoniker": "C:\\Users\\ogun\\UnityProjects\\EternalStruggle\\Assets\\Scripts\\Enemy\\State\\Boss\\BossWaitingState.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\State\\Boss\\BossWaitingState.cs",
+              "ToolTip": "C:\\Users\\ogun\\UnityProjects\\EternalStruggle\\Assets\\Scripts\\Enemy\\State\\Boss\\BossWaitingState.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Enemy\\State\\Boss\\BossWaitingState.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-17T16:50:06.71Z"
+              "WhenOpened": "2026-01-20T17:30:40.784Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MeleeEnemyInstaller.cs",
+              "DocumentMoniker": "C:\\Users\\ogun\\UnityProjects\\EternalStruggle\\Assets\\Scripts\\Installers\\EnemyLocal\\MeleeEnemyInstaller.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Installers\\EnemyLocal\\MeleeEnemyInstaller.cs",
+              "ToolTip": "C:\\Users\\ogun\\UnityProjects\\EternalStruggle\\Assets\\Scripts\\Installers\\EnemyLocal\\MeleeEnemyInstaller.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Installers\\EnemyLocal\\MeleeEnemyInstaller.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T11:57:42.967Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 12,
-              "Title": "MeleeAttackStrategySO.cs",
-              "DocumentMoniker": "C:\\Users\\ogun\\UnityProjects\\EternalStruggle\\Assets\\Scripts\\Enemy\\AttackStrategy\\MeleeAttackStrategySO.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\AttackStrategy\\MeleeAttackStrategySO.cs",
-              "ToolTip": "C:\\Users\\ogun\\UnityProjects\\EternalStruggle\\Assets\\Scripts\\Enemy\\AttackStrategy\\MeleeAttackStrategySO.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Enemy\\AttackStrategy\\MeleeAttackStrategySO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Title": "RangeAttackStrategySO.cs",
+              "DocumentMoniker": "C:\\Users\\ogun\\UnityProjects\\EternalStruggle\\Assets\\Scripts\\Enemy\\AttackStrategy\\RangeAttackStrategySO.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\AttackStrategy\\RangeAttackStrategySO.cs",
+              "ToolTip": "C:\\Users\\ogun\\UnityProjects\\EternalStruggle\\Assets\\Scripts\\Enemy\\AttackStrategy\\RangeAttackStrategySO.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Enemy\\AttackStrategy\\RangeAttackStrategySO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAEwA4AAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-16T19:33:41.622Z"
+              "WhenOpened": "2026-01-20T11:41:16.134Z"
             }
           ]
         }

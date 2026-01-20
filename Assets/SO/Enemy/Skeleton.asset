@@ -13,6 +13,8 @@ MonoBehaviour:
   m_Name: Skeleton
   m_EditorClassIdentifier: 
   _enemyName: Skeleton
+  _isBoss: 0
+  _spawnTime: 1
   _movementSpeed: 2
   _attackDistance: 1.5
   _attackDuration: 2

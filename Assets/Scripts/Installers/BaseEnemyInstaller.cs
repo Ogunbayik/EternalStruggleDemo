@@ -3,6 +3,7 @@ using Zenject;
 
 public abstract class BaseEnemyInstaller : MonoInstaller
 {
+    [Header("Enemy Data SO")]
     [SerializeField] private EnemyDataSO _data;
     public override void InstallBindings()
     {

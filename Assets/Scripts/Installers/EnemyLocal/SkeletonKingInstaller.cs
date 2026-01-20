@@ -4,13 +4,13 @@ using UnityEngine;
 
 public class SkeletonKingInstaller : BaseEnemyInstaller
 {
-    [Header("Attack Settings")]
-    //[SerializeField] private AttackStrategySO _meleeAttack;
-    [SerializeField] private AttackStrategySO _rangeAttack;
+    [Header("Attack Strategy Settings")]
+    [SerializeField] private MeleeAttackStrategySO _meleeAttack;
+    [SerializeField] private RangeAttackStrategySO _rangeAttack;
     protected override void BindAttacks()
     {
-        //Container.Bind<AttackStrategySO>().FromInstance(_meleeAttack).AsSingle().NonLazy();
-        Container.Bind<AttackStrategySO>().FromInstance(_rangeAttack).AsSingle().NonLazy();
+        Container.Bind<MeleeAttackStrategySO>().FromInstance(_meleeAttack).AsCached().NonLazy();
+        Container.Bind<RangeAttackStrategySO>().FromInstance(_rangeAttack).AsCached().NonLazy();
     }
 
     protected override void BindStates()

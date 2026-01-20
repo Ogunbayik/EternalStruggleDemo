@@ -12,12 +12,17 @@ public class BossFlyState : IEnemyState
     public void Initialize(EnemyBrain brain) => _brain = brain;
 
     private float _offsetY = 5f;
-    private float _moveTimer = 2f;
+    private float _flyTime = 2f;
+    private float _landTime = 2.5f;
 
     public void EnterState()
     {
         Debug.Log("Boss is Flying!");
-        HandleFlySequence();
+
+        if (!_enemy.IsFlying)
+            HandleFlySequence();
+        else
+            HandleLandSequce();
     }
 
     public void ExitState()
@@ -32,9 +37,17 @@ public class BossFlyState : IEnemyState
     private void HandleFlySequence()
     {
         Sequence flySequence = DOTween.Sequence();
-        flySequence.AppendCallback(() => _enemy.transform.DOMoveY(_offsetY, _moveTimer).SetEase(Ease.InOutQuad));
-        flySequence.AppendInterval(_moveTimer);
+        flySequence.AppendCallback(() => _enemy.transform.DOMoveY(_offsetY, _flyTime).SetEase(Ease.InOutQuad));
+        flySequence.AppendInterval(_flyTime);
         flySequence.AppendCallback(() => _brain.SwitchState<EnemyAttackState>());
+    }
+
+    private void HandleLandSequce()
+    {
+        Sequence landSequence = DOTween.Sequence();
+        landSequence.AppendCallback(() => _enemy.transform.DOMoveY(-_offsetY, _landTime).SetEase(Ease.OutCirc));
+        landSequence.AppendInterval(_landTime);
+        landSequence.AppendCallback(() => _brain.SwitchState<BossDecideState>());
     }
 
 }

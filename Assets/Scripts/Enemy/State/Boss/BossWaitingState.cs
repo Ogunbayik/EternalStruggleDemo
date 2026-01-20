@@ -6,8 +6,6 @@ public class BossWaitingState : IEnemyState
 {
     private EnemyBrain _brain;
     private EnemyBase _enemy;
-
-
     public BossWaitingState(EnemyBase enemy) => _enemy = enemy;
     public void Initialize(EnemyBrain brain) => _brain = brain;
 

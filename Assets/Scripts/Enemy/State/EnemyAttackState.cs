@@ -8,15 +8,13 @@ public class EnemyAttackState : IEnemyState
     private PlayerView _player;
     private EnemyBase _enemy;
     private EnemyBrain _brain;
-    private AttackStrategySO _attackStrategy;
 
     private float _attackTimer;
 
-    public EnemyAttackState(EnemyBase enemy, PlayerView player, AttackStrategySO attackStrategy)
+    public EnemyAttackState(EnemyBase enemy, PlayerView player)
     {
         _enemy = enemy;
         _player = player;
-        _attackStrategy = attackStrategy;
     }
     public void Initialize(EnemyBrain brain) => _brain = brain;
     public void EnterState()
@@ -32,23 +30,18 @@ public class EnemyAttackState : IEnemyState
     {
         _attackTimer -= Time.deltaTime;
 
-        if (_attackTimer <= 0)
-            DecideNextMove();
+        if(_attackTimer <= 0)
+        {
+            if (!_enemy.Data.IsBoss)
+                _brain.SwitchState<EnemyChaseState>();
+            else
+                _brain.SwitchState<BossDecideState>();
+        }
     }
     private void ExecuteAttack()
     {
-        _attackStrategy.ExecuteAttack(_enemy.transform);
-        Debug.Log("Playing Attack Animation");
+        _enemy.CurrentAttackStrategy.ExecuteAttack(_enemy.transform);
         _attackTimer = _enemy.Data.AttackDuration;
-    }
-    private void DecideNextMove()
-    {
-        var distanceToPlayer = Vector3.Distance(_enemy.transform.position, _player.transform.position);
-
-        if (distanceToPlayer > _enemy.Data.AttackDistance)
-            _brain.SwitchState<EnemyChaseState>();
-
-        //Player still in attack distance
-        ExecuteAttack();
+        Debug.Log("Playing Attack Animation");
     }
 }
