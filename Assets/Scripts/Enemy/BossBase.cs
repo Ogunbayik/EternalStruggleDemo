@@ -1,7 +1,4 @@
-using System;
-using System.Collections;
 using System.Collections.Generic;
-using UnityEngine;
 using Zenject;
 
 public class BossBase : EnemyBase
@@ -9,7 +6,9 @@ public class BossBase : EnemyBase
     public List<MeleeAttackStrategySO> _meleeAttackList;
     public List<RangeAttackStrategySO> _rangedAttackList;
 
-    public Predicate<int> CanAttackAgain;
+    private int _flyAttackCount;
+
+    private bool _isFlying;
 
     [Inject]
     public void Construct(List<MeleeAttackStrategySO> meleeAttackList, List<RangeAttackStrategySO> rangedAttackList)
@@ -17,7 +16,16 @@ public class BossBase : EnemyBase
         _meleeAttackList = meleeAttackList;
         _rangedAttackList = rangedAttackList;
     }
+    public void SetFlyingStatus(bool isActive) => _isFlying = isActive;
+    public bool IsFlying => _isFlying;
+    public void IncreaseFlyAttackCount() => _flyAttackCount++;
+    public void ResetFlyAttackCount() => _flyAttackCount = 0;
+    public int FlyAttackCount => _flyAttackCount;
+    public AttackStrategySO GetRandomRangeStrategy()
+    {
+        var randomIndex = UnityEngine.Random.Range(0, _rangedAttackList.Count);
+        var randomRangeStrategy = _rangedAttackList[randomIndex];
+        return randomRangeStrategy;
+    }
 
-    public void DecideNextMove() => CanAttackAgain = (index) => index >= 6;
-    public void GetRandomRoll() => UnityEngine.Random.Range(0, 11);
 }

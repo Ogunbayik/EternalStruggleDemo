@@ -5,23 +5,20 @@ using UnityEngine;
 
 public class EnemyAttackState : IEnemyState
 {
-    private PlayerView _player;
     private EnemyBase _enemy;
+    private BossBase _boss;
     private EnemyBrain _brain;
 
     private float _attackTimer;
 
-    public EnemyAttackState(EnemyBase enemy, PlayerView player)
+    public EnemyAttackState(EnemyBase enemy)
     {
         _enemy = enemy;
-        _player = player;
+        _boss = enemy as BossBase;
     }
     public void Initialize(EnemyBrain brain) => _brain = brain;
-    public void EnterState()
-    {
-        _enemy.transform.LookAt(_player.transform);
-        ExecuteAttack();
-    }
+    public void EnterState() => ExecuteAttack();
+    
     public void ExitState()
     {
         Debug.Log("Exit Attack State");
@@ -35,11 +32,15 @@ public class EnemyAttackState : IEnemyState
             if (!_enemy.Data.IsBoss)
                 _brain.SwitchState<EnemyChaseState>();
             else
+            {
+                _boss.IncreaseFlyAttackCount();
                 _brain.SwitchState<BossDecideState>();
+            }
         }
     }
     private void ExecuteAttack()
     {
+        _enemy.transform.LookAt(_enemy.Player.transform);
         _enemy.CurrentAttackStrategy.ExecuteAttack(_enemy.transform);
         _attackTimer = _enemy.Data.AttackDuration;
         Debug.Log("Playing Attack Animation");

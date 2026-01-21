@@ -8,7 +8,7 @@ public class MeleeEnemyInstaller : BaseEnemyInstaller
     [SerializeField] private MeleeAttackStrategySO _meleeAttack;
     protected override void BindAttacks()
     {
-        Container.Bind<MeleeAttackStrategySO>().FromInstance(_meleeAttack).AsSingle().NonLazy();
+        Container.Bind<MeleeAttackStrategySO>().FromInstance(_meleeAttack).AsCached().NonLazy();
     }
 
     protected override void BindStates()

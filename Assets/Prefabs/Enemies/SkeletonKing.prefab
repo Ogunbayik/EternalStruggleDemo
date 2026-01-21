@@ -182,8 +182,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70a94587892b2e34a91b4c5af28d50ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _allAttacks: []
-  _attackPosition: {fileID: 0}
+  _meleeAttackList: []
+  _rangedAttackList: []
+  _attackPosition: {fileID: 8966907536630152238}
 --- !u!136 &3572424446969050365
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -334,6 +335,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e08512b3d43d96a4d8d7fea978be5637, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _data: {fileID: 11400000, guid: dc1b379a52044e74da153c0536126e7b, type: 2}
+  _data: {fileID: 11400000, guid: 9558a01172546ab4097dccdd95f2f119, type: 2}
   _meleeAttack: {fileID: 11400000, guid: 31173f1ce5fbb46459b2b0802acbbef5, type: 2}
   _rangeAttack: {fileID: 11400000, guid: 73746ec766a14dc49b304c3e39b2cba5, type: 2}
+  _secondRangeAttack: {fileID: 11400000, guid: 6fe21b7d13531aa41b38fe3b44dc9a61, type: 2}

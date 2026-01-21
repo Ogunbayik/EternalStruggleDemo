@@ -19,14 +19,16 @@ public class SpreadAttackStrategySO : RangeAttackStrategySO
     {
         for (int i = 0; i < _prefabCount; i++)
         {
+            var spawnPosition = user.TransformPoint(_prefabOffset);
+
             var projectileAngle = _angle / _prefabCount;
-            //BulletFactory üzerinden inject edeceðiz. Þimdilik Instantiate ile üretiyorum.
+
             float step = Mathf.Ceil(i / 2f);
             float sign = (i % 2 == 0) ? 1 : -1;
             float finalDegree = step * sign * projectileAngle;
 
             var projectile = _projectileFactory.Create();
-            projectile.transform.position = user.position;
+            projectile.transform.position = spawnPosition;
             projectile.transform.rotation = user.rotation * Quaternion.Euler(0f, finalDegree, 0f);
             
             projectile.Launch(_prefabSpeed);

@@ -15,6 +15,8 @@ public class RangeBase : EnemyBase
         foreach (var strategy in _rangeStrategyList)
         {
             _container.Inject(strategy);
+
+            _currentAttackStrategy = strategy;
         }
     }
 }

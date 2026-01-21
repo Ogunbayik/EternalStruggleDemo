@@ -16,4 +16,5 @@ MonoBehaviour:
   _attackDamage: 0
   _prefab: {fileID: 5667886961962144024, guid: 7042bdcb798e1334abb6a72e03a0448c, type: 3}
   _prefabCount: 1
-  _prefabSpeed: 5
+  _prefabSpeed: 7
+  _prefabOffset: {x: 0, y: 2, z: 2}

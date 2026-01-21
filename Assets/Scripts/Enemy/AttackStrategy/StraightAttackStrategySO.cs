@@ -11,9 +11,11 @@ public class StraightAttackStrategySO : RangeAttackStrategySO
 
     public override void CreateProjectile(Transform user)
     {
+        Vector3 spawnPosition = user.TransformPoint(_prefabOffset);
+
         var projetile = _projectileFactory.Create();
-        projetile.transform.position = user.transform.position;
-        projetile.transform.rotation = user.transform.rotation;
+        projetile.transform.position = spawnPosition;
+        projetile.transform.rotation = user.rotation;
         projetile.Launch(_prefabSpeed);
     }
 

@@ -8,6 +8,7 @@ public abstract class RangeAttackStrategySO : AttackStrategySO
     [SerializeField] protected GameObject _prefab;
     [SerializeField] protected int _prefabCount;
     [SerializeField] protected float _prefabSpeed;
+    [SerializeField] protected Vector3 _prefabOffset;
 
     public override void ExecuteAttack(Transform user)
     {

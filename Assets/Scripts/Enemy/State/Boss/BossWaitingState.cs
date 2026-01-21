@@ -5,8 +5,8 @@ using UnityEngine;
 public class BossWaitingState : IEnemyState
 {
     private EnemyBrain _brain;
-    private EnemyBase _enemy;
-    public BossWaitingState(EnemyBase enemy) => _enemy = enemy;
+    private BossBase _boss;
+    public BossWaitingState(BossBase boss) => _boss = boss;
     public void Initialize(EnemyBrain brain) => _brain = brain;
 
     public void EnterState()
@@ -17,7 +17,7 @@ public class BossWaitingState : IEnemyState
     }
     public void ExitState()
     {
-
+        
     }
     public void Tick()
     {

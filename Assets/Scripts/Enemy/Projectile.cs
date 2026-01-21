@@ -10,6 +10,5 @@ public class Projectile : MonoBehaviour
 
     private void Awake() => _rb = GetComponent<Rigidbody>();
     public void Launch(float movementSpeed) => _rb.AddForce(transform.forward * movementSpeed, ForceMode.Impulse);
-
     public class Factory : PlaceholderFactory<Projectile> { }
 }

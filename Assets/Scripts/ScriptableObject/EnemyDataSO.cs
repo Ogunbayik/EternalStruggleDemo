@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-[CreateAssetMenu(fileName = "New Enemy Data", menuName = "SO/Enemy Data")]
+[CreateAssetMenu(fileName = "New Enemy Data", menuName = "SO/Enemy/Enemy Data")]
 public class EnemyDataSO : ScriptableObject
 {
     [Header("ID Settings")]

@@ -8,9 +8,16 @@ public abstract class BaseEnemyInstaller : MonoInstaller
     public override void InstallBindings()
     {
         Container.BindInstance(_data).AsSingle();
+        var enemyComponent = GetComponent<EnemyBase>();
+
+        if (enemyComponent is BossBase bossComponent)
+            Container.BindInstance(bossComponent).AsSingle();
 
         Container.BindInterfacesAndSelfTo<EnemyBrain>().AsSingle().NonLazy();
-        Container.Bind<EnemyBase>().FromComponentOnRoot().AsSingle();
+      
+        Container.Bind(typeof(BossBase), typeof(EnemyBase))
+        .FromComponentOnRoot()
+        .AsSingle();
 
         //States
         BindAttacks();
